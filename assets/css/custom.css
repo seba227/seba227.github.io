@@ -1,0 +1,21 @@
+/* Hide the site title text in top navigation */
+.greedy-nav .site-title {
+  display: none !important;
+}
+
+
+/* Align top nav links to the far left */
+.greedy-nav {
+  justify-content: flex-start !important;
+}
+
+/* Add small spacing between title/logo and links (optional) */
+.greedy-nav .visible-links {
+  margin-left: 1rem;
+}
+
+/* If you previously hid the site title, make sure it stays hidden */
+.greedy-nav .site-title {
+  display: none !important; /* optional */
+}
+

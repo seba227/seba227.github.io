@@ -1,0 +1,62 @@
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded&display=swap" rel="stylesheet">
+
+
+
+<style>
+/* Apply Cardo font to the site title */
+.masthead .greedy-nav .site-title {
+  font-family: 'Sixtyfour', serif !important;
+  font-weight: 700;       /* bold, you can change to 400 for normal */
+  font-size: 1.5rem;      /* adjust to your liking */
+  letter-spacing: 0.5px;  /* optional */
+  color: #ffffff;         /* or your preferred color */
+  margin-right: 1rem;     /* spacing from links */
+}
+
+/* optional: make sure nav links still align properly */
+.masthead .greedy-nav {
+  justify-content: flex-start !important;
+}
+
+.masthead .greedy-nav .visible-links {
+  margin-left: 0 !important;
+}
+
+/* --- set one color and reuse it --- */
+/* Replace the hex below with your footer's exact computed color */
+:root { --bar: #1c2026; }  /* <— use the same value as .page__footer background */
+
+/* Top bar backgrounds */
+.masthead,
+.masthead .masthead__inner-wrap,
+.masthead .greedy-nav {
+  background-color: var(--bar) !important;
+}
+
+/* Remove the thin separator line/shadow under the header */
+.masthead,
+.masthead .masthead__inner-wrap,
+.masthead .greedy-nav {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* (Optional) ensure good contrast for links/title */
+.masthead .greedy-nav a,
+.masthead .greedy-nav .site-title { color: #fff !important; }
+
+.masthead .greedy-nav a:hover { color: #00ff9f !important; }
+
+
+.archive__subtitle,
+.author__name {
+  font-family: 'Zalando Sans SemiExpanded', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff; /* adjust if you want a different shade */
+}
+
+</style>
