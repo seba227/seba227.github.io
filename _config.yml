@@ -31,7 +31,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes 
-#theme: jekyll-theme-chirpy
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
@@ -40,7 +39,7 @@ plugins:
 
 author:
   name: "Sebastian Sanislav"
-  avatar: "/assets/images/profile.jpg"   # put an image in this path
+  avatar: "/assets/images/test.jpg"   # put an image in this path
   bio: "Security consultant, pentester and researcher at [mnemonic.io](https://mnemonic.io)"
   location: "Oslo, Norway"
   links:
@@ -50,6 +49,13 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/sebastian-sanislav"
+
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-ENSKMLZ891"
+    anonymize_ip: false
 
 
 # Exclude from processing.
